@@ -3011,6 +3011,18 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+.contact-contentes {
+    max-width: 1500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.4);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    position: relative;
+}
+
 .contact-content h3 {
     margin-top: 0;
     margin-bottom: 6.6rem;

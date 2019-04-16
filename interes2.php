@@ -62,10 +62,10 @@
     ================================================== -->
     <section id="contact" class="s-contact">
         <div class="overlay"></div>
-        <div class="contact__line"></div>
+        
 
         <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
+            
                 <h1 class="display-2 display-2--light">Contanos sobre ti 
                 
                 <?php
@@ -95,14 +95,26 @@
             </div>
         </div>
 
-        <div class="row contact-content" data-aos="fade-up">
+        <div class="row contact-contentes" data-aos="fade-up">
 
             <div class="contact-primary">
 
-                <!-- <h3 class="h6">Comp</h3>-->
-                <h3 class="h2">Selecciona</h3>
+                <!-- <h3 class="h6">Comp</h3>
+            <h3 class="h2">Selecciona</h3>-->
+                
                 <!-- contact ver la opccion para suscribirte con correo como gramo
     ================================================== -->
+    <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i> <class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <iframe width="450" height="250" align="left" src="https://www.youtube.com/embed/uY1cm-7PBes" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">May May aprende a cocinar y hoy es Chef</h3><br>Pero lo que es excepcional en el caso de May es que para lograr convertirse en una chef de éxito
+                        no tuvo que asistir a mil y una clases de cocina, No, lo único que necesitó la chef
+                        Mahasrabphaisal fue YouTube.
+                </div>
+            </div>
 
 
                 <div class="home-content__buttons">

@@ -11,7 +11,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <title>VIEDUC</title>
-    <meta name="description" content="">
+    <meta name="descriptiones" content="">
     <meta name="author" content="">
 
     <!-- mobile specific metas

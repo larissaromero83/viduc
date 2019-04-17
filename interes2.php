@@ -106,7 +106,7 @@
     ================================================== -->
     <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="500" height="300" align="left" src="https://www.youtube.com/embed/uY1cm-7PBes" frameborder="0"
+                    <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/uY1cm-7PBes" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">May May aprende a cocinar y hoy es Chef</h3><br>Pero lo que es excepcional en el caso de May es que para lograr convertirse en una chef de éxito
                         no tuvo que asistir a mil y una clases de cocina, No, lo único que necesitó la chef
                         Mahasrabphaisal fue YouTube.
@@ -114,7 +114,7 @@
             </div>
             
             
-            <form action="Api Youtube/search.php" method="GET" >
+            <form action="search.php" method="GET" >
             <div> 
             <h3 class="h6">Temas a buscar :</h3>
               <h3 class="subhead"> Temas :</h3> <input type="search" id="q" name="q" placeholder="Temas Buscados">

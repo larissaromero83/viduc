@@ -50,7 +50,7 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
     $videos = '';
     $channels = '';
     $playlists = '';
-    $direccion ='<iframe class="zoom" ; width="400" height="300" src="https://www.youtube.com/embed/%s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>﻿';
+    $direccion ='<iframe class="zoom" ; width="560" height="315" src="https://www.youtube.com/embed/%s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>﻿';
 
     // Add each result to the appropriate list, and then display the lists of
     // matching videos, channels, and playlists.
@@ -70,7 +70,10 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
       }
     }
 //<a class="thumbnail" href="#thumb"><img src="URL de la imagen" width="250px" height="150px" border="0" /><span><img src="URL de la imagen" /><br />Descripción para la foto.</span></a>
-    
+    $htmlBody .= <<<END
+    <h3>Videos</h3>
+    <ul>$videos</ul>
+END;
   } catch (Google_Service_Exception $e) {
     $htmlBody .= sprintf('<p>A service error occurred: <code>%s</code></p>',
       htmlspecialchars($e->getMessage()));
@@ -141,6 +144,8 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+    
+
 </head>
 
 <body id="top">
@@ -177,10 +182,25 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
                 <h1 class="display-2 display-2--light">Esto es lo que buscas </h1>
 
                 <h3 class="subhead">Tus preferencias</h3>
-                <?=$htmlBody?>
+                
             </div>
-        </div>       
-        </div> <!-- end contact-content -->
+        </div>
+    <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-text">
+
+<?=$htmlBody?>
+
+ </div>
+                
+                </div>
+
+
+
+
+
+
+                
+      
         
     </section> <!-- end s-contact -->
     
@@ -220,4 +240,3 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
 </html>
 
 
-<?=$htmlBody?>

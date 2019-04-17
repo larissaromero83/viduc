@@ -115,30 +115,56 @@
                         Mahasrabphaisal fue YouTube.
                 </div>
             </div>
+ 
+
+<form action="Api Youtube/search.php" method="GET" >
+  <div>
+    Search Term: <input type="search" id="q" name="q" placeholder="Enter Search Term">
+  </div>
+  <div>
+    Max Results: <input type="number" id="maxResults" name="maxResults" min="1" max="50" step="1" value="25">
+  </div>
+  <input type="submit" value="Search">
+</form>
 
 
-                <div class="home-content__buttons">
-                    <a href="#contact" class="smoothscroll btn btn--stroke">
-                        COCINA
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        BAILE
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        IDIOMAS
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        DIBUJO
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        DECORACION
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        MANUALIDADES
-                    </a>
+
+
+
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-group"></i>
                 </div>
+                <div class="service-text">
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/wStIus5jRbE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+<div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/nVVbJxqHvBA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
                 
-               
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/f0bPm-6hWls" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+         
+         
+
             </div> <!-- end contact-primary -->
             <input type="button" value=" Volver" onclick="location='index.html'" />
         </div> <!-- end contact-content -->

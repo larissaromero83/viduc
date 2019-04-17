@@ -87,10 +87,6 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
     $htmlBody .= <<<END
     <h3>Videos</h3>
     <ul>$videos</ul>
-    <h3>Channels</h3>
-    <ul>$channels</ul>
-    <h3>Playlists</h3>
-    <ul>$playlists</ul>
 END;
   } catch (Google_Service_Exception $e) {
     $htmlBody .= sprintf('<p>A service error occurred: <code>%s</code></p>',

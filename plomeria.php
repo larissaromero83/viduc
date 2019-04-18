@@ -106,8 +106,8 @@
     ================================================== -->
     <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/Enw-i87aG64" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Como mejorar tus tecnicas de futbol</h3><br>Mira esto te puede ayudar a mejorar tus tecnicas y aprender un poco mas sobre este deporte
+                    <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/4zXLajoIXPg" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Podes aprender un poco como realizar lo basico en tu hogar</h3><br>Mira esto te puede ayudar a mejorar tus conocimientos y aprender un poco mas sobre este oficio
 
             </div>
             
@@ -135,7 +135,7 @@
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/aq3uo2j8bVo" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/h-CMJp-E7cE" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
@@ -143,14 +143,14 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/Onq_An6i3dY" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/BLNVE2jc-Sw" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
                 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/I1M7OhMHW_M" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/YT4N9YLlPs0" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -158,7 +158,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/YXuhZXEB9J0" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/1alPsY9IyDA"  frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -166,7 +166,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/8bEuKDRc-bY" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/AVdHMdAxj3w" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -174,7 +174,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/qNqRI-GcrvM" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/ZppF4YOpyGU" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -182,14 +182,14 @@
 
              <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/-FSaKOing2o" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/Ppm0IbqiNCw" frameborder="0"
                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
             </div>
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/YDSj2AghB0I" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/fyAFrOPy0Qo" frameborder="0"
                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 

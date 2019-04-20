@@ -50,14 +50,41 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
          $row= mysqli_query($conexion,"SELECT * FROM datos ORDER by id DESC limit 1 ") or die ("problemas en consultas:".mysqli_error());
         $row = mysqli_fetch_array($row);
          //Guardo los datos de la BD en las variables de php
-         $var1 = $row["sexo"];
-         $var2 = $row["edad"];
-         if ($var1=="femenino") {
-            header('Location: interes2.php');
-          }else{
-            header('Location: interes3.php');
+         $var1 = $row["preferencia"];
+           switch($var1) {
+            case"Deportes" :
+            header('Location: deportes.php');
+            break;
+            case "Idiomas":
+            header('Location: idiomas.php');
+            break;
+            case "Cocina":
+            header('Location: cocina.php');
+            break;
+            case "Baile":
+            header('Location: baile.php');
+            break;
+            case "Electricidad":
+            header('Location: electricidad.php');
+            break;
+            case "Manicura":
+            header('Location: manicura.php');
+            break;
+            case "Estilista":
+            header('Location: peluqueria.php');
+            break;
+            case "Plomeria":
+            header('Location: plomeria.php');
+            break;
+            case "Corte y Confeccion":
+            header('Location: costura.php');
+            break;
+            default:
+            echo '$variable no es igual a 1, 2 o 3.';
+            }
+            
  }       
-}      
+      
        
         
     

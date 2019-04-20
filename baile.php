@@ -104,36 +104,35 @@
                 
                 <!-- contact ver la opccion para suscribirte con correo como gramo
     ================================================== -->
-    <div class="col-block service-item" data-aos="fade-up">
+ 
+    <div class="col-block service-item" data-aos="fade-up" id="columna1">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/xjx6CJlsEM8" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Aprende a bailar todo depende de vos</h3><br>Mira esto te puede ayudar a mejorar tus tecnicas y aprender un poco mas sobre tecnicas de baile
-
-            </div>
-            
-        
-
-            </div> <!-- end contact-content -->
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Aprende a bailar todo depende de vos</h3>Mira esto te puede ayudar a mejorar tus tecnicas y aprender un poco mas sobre tecnicas de baile
+               </div>
+    </div> <!-- end contact-content -->
 
 
- 
-
-            <form action="search.php" method="GET" >
-            <div style="text-align: right ;width:1700px"> 
-            <h3 >Temas a buscar :</h3>
+    <div id="columna2">
+                
+    <form action="search.php" method="GET"  >
+            <div> 
+            <p>Temas a buscar :</p>
               <h3 class="subhead"> Temas :</h3> <input type="search" id="q" name="q" placeholder="Temas Buscados">
-              <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" id="maxResults" name="maxResults" min="1" max="50" step="1" value="25">
             </div>
+             <div >
+             <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" id="maxResults" name="maxResults" min="1" max="50" step="1" value="25">
+             </div>
+             
              
              <div style="text-align: right ;width:1700px">
               <input type="submit" value="Buscar">
               </div>
              </form>
 
+           </div>
+
            
-
-            
-
 
 
 

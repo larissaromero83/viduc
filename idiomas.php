@@ -104,6 +104,7 @@
                 
                 <!-- contact ver la opccion para suscribirte con correo como gramo
     ================================================== -->
+    
     <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/XPOSH5BT7dM" frameborder="0"

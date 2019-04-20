@@ -104,14 +104,16 @@
                 
                 <!-- contact ver la opccion para suscribirte con correo como gramo
     ================================================== -->
-    <div class="col-block service-item" data-aos="fade-up">
+    <div class="col-block service-item" data-aos="fade-up"  id="columna1">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/zX8ERlu-TEc" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Aprende corte y confeccion</h3><br>Mira esto te puede ayudar a adquirir conocimientos y aprender un poco mas sobre este tema
 
             </div>
+            </div> 
             
-            
+
+            <div id="columna2">
             <form action="search.php" method="GET" >
             <div> 
             <h3 class="h6">Temas a buscar :</h3>
@@ -126,8 +128,8 @@
               <input type="submit" value="Buscar">
               </div>
              </form>
-
-           </div>
+             </div>
+           
 
 
 

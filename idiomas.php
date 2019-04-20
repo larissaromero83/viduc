@@ -91,7 +91,7 @@
 
                 <h3 class="subhead">Esto te puede interesar</h3>
                 
-                <h1 class="display-2 display-2--light">Varias recetas para aprender</h1>
+                <h1 class="display-2 display-2--light">Varios videos de como aprender</h1>
             </div>
         </div>
 
@@ -107,17 +107,18 @@
     <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/XPOSH5BT7dM" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Como aprender un nuevo idioma</h3><br>Mira esto te puede ayudar a mejorar tus espectativas sobre este tema.
-
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Vigilante aprende a hablar varios idiomas</h3><br>Mira esto te puede ayudar a mejorar tus espectativas sobre este tema,el pudo lograr aprender 
+                        tus puedes hacerlo hay muchas tecnicas.
+                </div>          
             </div>
             
             
             <form action="search.php" method="GET" >
-            <div> 
+            <div style="text-align: right ;width:1700px"> 
             <h3 class="h6">Temas a buscar :</h3>
               <h3 class="subhead"> Temas :</h3> <input type="search" id="q" name="q" placeholder="Temas Buscados">
             </div>
-             <div>
+             <div style="text-align: right ;width:1700px">
              <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" id="maxResults" name="maxResults" min="1" max="50" step="1" value="25">
              </div>
              
@@ -135,7 +136,7 @@
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/aq3uo2j8bVo" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/wStIus5jRbE" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
@@ -143,14 +144,14 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube-nocookie.com/embed/wWxzipZaIkA" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/nVVbJxqHvBA" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
                 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube-nocookie.com/embed/kze0IJMs4QQ" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/f0bPm-6hWls" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -158,7 +159,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube-nocookie.com/embed/Bh9xIvmJ3fA"  frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/uga2DGux0_I" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -166,7 +167,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube-nocookie.com/embed/MVwimaThx24" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/MNNuEz1OHHk" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -174,7 +175,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube-nocookie.com/embed/zeM8I-QU02k"  frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/mm7btVGedpA" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -182,14 +183,14 @@
 
              <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube-nocookie.com/embed/Un0aI1tPszM"  frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DLQa2ApEV7I" frameborder="0"
                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
             </div>
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube-nocookie.com/embed/sNGu_8QDhuA" frameborder="0"
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DxDwykqqVqs" frameborder="0"
                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 

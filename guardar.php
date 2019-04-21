@@ -29,12 +29,12 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
     $nombre=$_POST['nombre']; //name="nombre"
     $sexo=$_POST['sexo']; //name="correo"
     $edad=$_POST['edad']; //name="mensaje" //name="mensaje"
-    $intereses=$_POST['intereses']; //name="mensaje"
     $email=$_POST['email'];
+    $intereses=$_POST['intereses']; //name="mensaje"
     $preferencia=$_POST['preferencia'];
 
     //sentencia sql
-    $sql="INSERT INTO datos VALUES ('','$nombre','$sexo','$edad','$intereses','$email','$preferencia')"; //manda a traer los valores de '$nombre','$correo','$mensaje'
+    $sql="INSERT INTO datos VALUES ('','$nombre','$sexo','$edad','$email','$intereses','$preferencia')"; //manda a traer los valores de '$nombre','$correo','$mensaje'
     
     //ejecutamos la centencia de sql
     $ejecutar=mysqli_query($conexion, $sql);

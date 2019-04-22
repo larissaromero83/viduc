@@ -80,7 +80,7 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
             header('Location: costura.php');
             break;
             default:
-            echo '$variable no es igual a 1, 2 o 3.';
+            header('Location: buscadorGenerico.php');
             }
             
  }       

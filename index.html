@@ -295,9 +295,9 @@
                         
                             <input type="text" name="nombre"  placeholder="Nombre y Apellido"  required="" class="full-width">
                             <input type="text"name="sexo"  placeholder="Sexo" value="" class="full-width">
-                            <input type="text"name="edad" placeholder="Edad" value="" required="" aria-required="true" class="full-width">
-                            <input type="text"name="email"  placeholder="Email" value=""  class="full-width">
-                            <input type="text"name="intereses" placeholder="Intereses Ej:deporte, baile etc" value="" required="" aria-required="true" class="full-width">
+                            <input type="text"name="edad" placeholder="Edad" value="" aria-required="true" class="full-width">
+			    <!-- <input type="text"name="email"  placeholder="Email" value=""  class="full-width">-->
+			    <!--                            <input type="text"name="intereses" placeholder="Intereses Ej:deporte, baile etc" value="" required="" aria-required="true" class="full-width">-->
                             <p>Preferencia:
                                 <input type="radio" name="preferencia" value="Deportes" required> Deportes
                                 <input type="radio" name="preferencia" value="Idiomas" required> Idiomas
@@ -323,11 +323,22 @@
                     
                     -->
                 </form>
+		            <form action="search.php" method="GET" >
+            <div>
+            <h3 class="h6">Escribe tu preferencia:</h3>
+                  <h3 class="subhead"></h3> <input type="search" id="q" name="q" placeholder="Programación, tenis ...">
+            </div>
+             <div>
+             <input type="hidden" id="maxResults" name="maxResults" step="1" value="25">
+             </div>
+
+
+             <div style="text-align: left ;width:1700px">
+              <input type="submit" value="Buscar">
+              </div>
+             </form>
+
                 
-            </div> <!-- end contact-primary -->
-
-
-
         </div> <!-- end contact-content -->
 
     </section> <!-- end s-contact -->

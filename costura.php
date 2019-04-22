@@ -132,7 +132,7 @@
            
 
 
-
+</div>
 
 
             <div class="col-block service-item" data-aos="fade-up">

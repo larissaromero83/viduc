@@ -76,7 +76,7 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
             case "Plomeria":
             header('Location: plomeria.php');
             break;
-            case "Corte y Confeccion":
+            case "Costura":
             header('Location: costura.php');
             break;
             default:

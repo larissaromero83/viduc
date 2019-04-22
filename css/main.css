@@ -860,6 +860,8 @@ input[type="button"].btn--primary:focus {
 /* button modifiers
  * ------------------------------------------------- */
 
+
+
 .btn.full-width, button.full-width {
     width: 100%;
     margin-right: 0;
@@ -3031,7 +3033,7 @@ html.no-csstransitions .home-content__main {
     background-color: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.4);
     width: 1550px;
-	height: 1300px;
+	height: 1000px;
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3117,7 +3119,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-primary {
-    width: 120%;
+    width: 100%;
 }
 
 .contact-primary #contactForm {

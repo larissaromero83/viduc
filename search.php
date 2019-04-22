@@ -50,7 +50,7 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
     $videos = '';
     $channels = '';
     $playlists = '';
-    $direccion ='<iframe class="zoom" ; width="560" height="315" src="https://www.youtube.com/embed/%s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>﻿';
+    $direccion ='<iframe class="zoom" ; width="450" height="300" src="https://www.youtube.com/embed/%s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>﻿';
 
     // Add each result to the appropriate list, and then display the lists of
     // matching videos, channels, and playlists.
@@ -71,7 +71,6 @@ if (isset($_GET['q']) && isset($_GET['maxResults'])) {
     }
 //<a class="thumbnail" href="#thumb"><img src="URL de la imagen" width="250px" height="150px" border="0" /><span><img src="URL de la imagen" /><br />Descripción para la foto.</span></a>
     $htmlBody .= <<<END
-    <h3>Videos</h3>
     <ul>$videos</ul>
 END;
   } catch (Google_Service_Exception $e) {
@@ -185,16 +184,18 @@ END;
                 
             </div>
         </div>
+        <div class="row contact-contentes" data-aos="fade-up">
     <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
+                <div class="service-text" align="center">
 
 <?=$htmlBody?>
-
+<div style="text-align: left ;width:1200px">
+<a href="javascript:history.back(-1);"  title="Ir la página anterior">Volver</a>
  </div>
-                
+ </div>
                 </div>
 
-
+ </div>
 
 
 

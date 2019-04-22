@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>VIEDUC</title>
+    <title>VIDUC</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -107,24 +107,25 @@
     <div class="col-block service-item" data-aos="fade-up" id="columna1">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/uY1cm-7PBes" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">May May aprende a cocinar y hoy es Chef</h3><br>Pero lo que es excepcional en el caso de May es que para lograr convertirse en una chef de éxito
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">May May aprende a cocinar y hoy es Chef</h3><br><P ALIGN="justify">Pero lo que es excepcional en el caso de May es que para lograr convertirse en una chef de éxito
                         no tuvo que asistir a mil y una clases de cocina, No, lo único que necesitó la chef
-                        Mahasrabphaisal fue YouTube.
+                        Mahasrabphaisal fue YouTube. </p>
                 </div>          
             </div>
             
             <div id="columna2">
-            <form action="search.php" method="GET" >
+                
+    <form action="search.php" method="GET"  >
             <div> 
-            <h3 class="h6">Temas a buscar :</h3>
-              <h3 class="subhead"> Temas :</h3> <input type="search" id="q" name="q" placeholder="Temas Buscados">
+              <h3 class="subhead">Temas a buscar :</h3> <input type="search" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id="q" name="q" placeholder="Temas Buscados">
             </div>
-             <div>
-             <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" id="maxResults" name="maxResults" min="1" max="50" step="1" value="25">
+             <div >
+             <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id="maxResults" name="maxResults" min="1" max="50" step="1" value="10">
              </div>
              
+            
              
-             <div style="text-align: right ;width:1700px">
+             <div style="text-align: right ;width:300px">
               <input type="submit" value="Buscar">
               </div>
              </form>
@@ -178,21 +179,6 @@
                 <div class="service-text">
                     <iframe width="450" height="250" src="https://www.youtube.com/embed/mm7btVGedpA" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-
-             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DLQa2ApEV7I" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DxDwykqqVqs" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
             </div>

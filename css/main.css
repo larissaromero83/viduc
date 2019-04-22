@@ -521,6 +521,11 @@ form,
  * # preloader
  *
  * ------------------------------------------------------------------- */
+ #columna1 { background:transparent; width: 60%; }
+#columna2 { background: transparent; width:30%; }
+#columna1, #columna2 { float:left; color: white; }
+
+ 
 #preloader {
     position: fixed;
     top: 0;
@@ -1025,6 +1030,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *	</aside>
  *
  * --------------------------------------------------------------------- */
+
+ 
+
+
+
+
 
 .pull-quote {
     position: relative;
@@ -2864,6 +2875,10 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * clients
  * ------------------------------------------------------------------- */
+
+
+
+
 @media only screen and (max-width: 1200px) {
     .clients-testimonials .testimonials {
         margin: 0 12%;
@@ -3012,9 +3027,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-contentes {
-    max-width: 2000px;
+    max-width: 1600px;
     background-color: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.4);
+    width: 1550px;
+	height: 1300px;
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3286,6 +3303,19 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1000px) {
     .contact-content {
         max-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+            .contact-contentes {
+                max-width: 1200px;
+            }
+        }
+        
+@media only screen and (max-width: 1600px) {
+            .contact-contentes {
+                max-width: 1050px;
+        
     }
     .contact-primary, .contact-secondary {
         float: none;

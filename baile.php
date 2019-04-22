@@ -91,7 +91,7 @@
 
                 <h3 class="subhead">Esto te puede interesar</h3>
                 
-                <h1 class="display-2 display-2--light">Varias recetas para aprender</h1>
+                <h1 class="display-2 display-2--light">Aprende a bailar para no aburrirte en las fiestas o eventos sociales</h1>
             </div>
         </div>
 
@@ -104,38 +104,39 @@
                 
                 <!-- contact ver la opccion para suscribirte con correo como gramo
     ================================================== -->
-    <div class="col-block service-item" data-aos="fade-up">
+ 
+    <div class="col-block service-item" data-aos="fade-up" id="columna1">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/xjx6CJlsEM8" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Aprende a bailar para no aburrirte en las fiestas o eventos sociales</h3><br>Mira esto te puede ayudar a mejorar tus tecnicas y aprender un poco mas sobre tecnicas de baile
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Aprende a bailar todo depende de vos</h3>Mira esto te puede ayudar a mejorar tus tecnicas y aprender un poco mas sobre tecnicas de baile
+               </div>
+    </div> <!-- end contact-content -->
 
-            </div>
-            
-            
-            <form action="search.php" method="GET" >
+
+    <div id="columna2">
+                
+    <form action="search.php" method="GET"  >
             <div> 
-            <h3 class="h6">Temas a buscar :</h3>
+            <p>Temas a buscar :</p>
               <h3 class="subhead"> Temas :</h3> <input type="search" id="q" name="q" placeholder="Temas Buscados">
             </div>
-             <div>
+             <div >
              <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" id="maxResults" name="maxResults" min="1" max="50" step="1" value="25">
              </div>
              
              
-             <div style="text-align: right ;width:1700px">
+             <div style="text-align: right ;width:300px">
               <input type="submit" value="Buscar">
               </div>
              </form>
 
            </div>
 
-
-
-
+        
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/a9lrwMlnWrg"  frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/a9lrwMlnWrg"  frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
@@ -143,14 +144,14 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/pGbedkOqHIc" frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/pGbedkOqHIc" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
                 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/dM8DNMbpSq8" frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/dM8DNMbpSq8" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -158,7 +159,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/lCTwmuoOWtU" frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/lCTwmuoOWtU" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -166,7 +167,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/Njct-y21ccc"  frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/Njct-y21ccc"  frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -174,7 +175,7 @@
 
 <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DEF3bFlPM_U" frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/DEF3bFlPM_U" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
@@ -182,14 +183,14 @@
 
              <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/zVfKJ8tXla8" frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/zVfKJ8tXla8" frameborder="0"
                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
             </div>
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/6-DrQKh2hMU" frameborder="0"
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/6-DrQKh2hMU" frameborder="0"
                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 

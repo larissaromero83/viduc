@@ -91,7 +91,7 @@
 
                 <h3 class="subhead">Esto te puede interesar</h3>
                 
-                <h1 class="display-2 display-2--light">Varias recetas para aprender</h1>
+                <h1 class="display-2 display-2--light">Varias tecnicas para aprender</h1>
             </div>
         </div>
 
@@ -104,14 +104,15 @@
                 
                 <!-- contact ver la opccion para suscribirte con correo como gramo
     ================================================== -->
-    <div class="col-block service-item" data-aos="fade-up">
+    <div class="col-block service-item" data-aos="fade-up" id="columna1">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/Enw-i87aG64" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Como mejorar tus tecnicas de futbol</h3><br>Mira esto te puede ayudar a mejorar tus tecnicas y aprender un poco mas sobre este deporte
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Como mejorar tus tecnicas de futbol</h3><br>Mira esto te puede ayudar a mejorar tus tecnicas y aprender un poco más sobre este deporte
 
             </div>
+            </div>
             
-            
+            <div id="columna2">
             <form action="search.php" method="GET" >
             <div> 
             <h3 class="h6">Temas a buscar :</h3>
@@ -122,16 +123,19 @@
              </div>
              
              
-             <div style="text-align: right ;width:1700px">
+             <div style="text-align: right ;width:300px">
               <input type="submit" value="Buscar">
               </div>
              </form>
 
-           </div>
+             </div>
 
 
 
 
+
+
+             
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-text">

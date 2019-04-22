@@ -104,14 +104,16 @@
                 
                 <!-- contact ver la opccion para suscribirte con correo como gramo
     ================================================== -->
-    <div class="col-block service-item" data-aos="fade-up">
+    <div class="col-block service-item" data-aos="fade-up" id="columna1" >
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/4zXLajoIXPg" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">Podes aprender un poco como realizar lo basico en tu hogar</h3><br>Mira esto te puede ayudar a mejorar tus conocimientos y aprender un poco mas sobre este oficio
 
             </div>
-            
-            
+            </div>
+
+           
+            <div id="columna2">
             <form action="search.php" method="GET" >
             <div> 
             <h3 class="h6">Temas a buscar :</h3>
@@ -126,10 +128,10 @@
               <input type="submit" value="Buscar">
               </div>
              </form>
+             </div>
+           
 
-           </div>
-
-
+           
 
 
 

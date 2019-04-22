@@ -184,20 +184,7 @@
                 
             </div>
 
-             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/-FSaKOing2o" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/YDSj2AghB0I" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
+            
 
             <div style="text-align: left ;width:800px">
                 <input type="button" value=" Volver" onclick="location='index.html'" />

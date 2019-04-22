@@ -124,7 +124,7 @@
              </div>
              
              
-             <div style="text-align: right ;width:1700px">
+             <div style="text-align: right ;width:300px">
               <input type="submit" value="Buscar">
               </div>
              </form>
@@ -178,21 +178,6 @@
                 <div class="service-text">
                     <iframe width="450" height="250" src="https://www.youtube.com/embed/mm7btVGedpA" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-
-             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DLQa2ApEV7I" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DxDwykqqVqs" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
             </div>

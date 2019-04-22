@@ -91,7 +91,7 @@
 
                 <h3 class="subhead">Esto te puede interesar</h3>
                 
-                <h1 class="display-2 display-2--light">Varias recetas para aprender</h1>
+                <h1 class="display-2 display-2--light">Lo basico para aprender</h1>
             </div>
         </div>
 
@@ -123,7 +123,7 @@
              </div>
              
              
-             <div style="text-align: right ;width:1700px">
+             <div style="text-align: right ;width:300px">
               <input type="submit" value="Buscar">
               </div>
              </form>
@@ -181,20 +181,7 @@
                 
             </div>
 
-             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/3mpocByeK00?start=14" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/HY00l2YO0pc?start=14" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
+             
 
             <div style="text-align: left ;width:800px">
                 <input type="button" value=" Volver" onclick="location='index.html'" />

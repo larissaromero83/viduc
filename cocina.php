@@ -107,9 +107,9 @@
     <div class="col-block service-item" data-aos="fade-up" id="columna1">
                 <div class="service-text">
                     <iframe width="500" height="300"  align="left" src="https://www.youtube.com/embed/uY1cm-7PBes" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">May May aprende a cocinar y hoy es Chef</h3><br>Pero lo que es excepcional en el caso de May es que para lograr convertirse en una chef de éxito
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3 class="subhead">May May aprende a cocinar y hoy es Chef</h3><br><P ALIGN="justify">Pero lo que es excepcional en el caso de May es que para lograr convertirse en una chef de éxito
                         no tuvo que asistir a mil y una clases de cocina, No, lo único que necesitó la chef
-                        Mahasrabphaisal fue YouTube.
+                        Mahasrabphaisal fue YouTube. </p>
                 </div>          
             </div>
             

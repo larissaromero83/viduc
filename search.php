@@ -190,7 +190,8 @@ END;
 
 <?=$htmlBody?>
 <div style="text-align: left ;width:1200px">
-<a href="javascript:history.back(-1);"  title="Ir la página anterior">Volver</a>
+<input type="button" value="Volver" onclick="javascript:history.back(-1);"/>
+<!--<a href="javascript:history.back(-1);"  title="Ir la página anterior">Volver</a>-->
  </div>
  </div>
                 </div>

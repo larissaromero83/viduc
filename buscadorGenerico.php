@@ -66,28 +66,7 @@
 
         <div class="row section-header" data-aos="fade-up">
             
-                <h1 class="display-2 display-2--light">Hola 
-                
-                <?php
-        //include("guardar.php");
-        $usuario = "root"; //en ste caso root por ser localhost
-            $password = "";  //contraseña por si tiene algun servicio de hosting 
-            $servidor = "localhost"; //localhost por lo del xampp
-            $basededatos ="formulario1"; //nombre de la base de datos
-        
-        $conexion =mysqli_connect ($servidor,$usuario,"") or die ("problemas al conectar server");
-        
-        mysqli_select_db($conexion,$basededatos) or die ("Error conexion al conectarse a la Base de datos");
-        
-        $registro= mysqli_query($conexion,"SELECT * FROM datos ORDER by id DESC limit 1 ") or die ("problemas en consultas:".mysqli_error());
-        while($reg= mysqli_fetch_array($registro)){
-        
-            echo $reg['nombre'];
-
-        }
-        
-        ?>
-        </h1>
+                <h1 class="display-2 display-2--light">Hola </h1>
 
                 <h3 class="subhead">Esto te puede interesar</h3>
                 
@@ -110,7 +89,7 @@
              </div>
              
              
-             <div style="text-align: right ;width:1700px">
+             <div style="text-align: right ;width:300px">
               <input type="submit" value="Buscar">
               </div>
              </form>
@@ -121,67 +100,7 @@
 
 
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/wStIus5jRbE" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-
-
-<div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/nVVbJxqHvBA" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-                
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/f0bPm-6hWls" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-
-<div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/uga2DGux0_I" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-
-<div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/MNNuEz1OHHk" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-
-<div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/mm7btVGedpA" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-
-             <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DLQa2ApEV7I" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-text">
-                    <iframe width="450" height="250" src="https://www.youtube.com/embed/DxDwykqqVqs" frameborder="0"
-                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </div>
+            
 
             <div style="text-align: left ;width:800px">
                 <input type="button" value=" Volver" onclick="location='index.html'" />

@@ -5,11 +5,14 @@
 //Autor: Chiphysi  Autor: Jhonatan Cardona  
 //Derechos de autor(Suscribete)
 
+require_once('./includes/dbconnect.php');
 
-    $usuario = "root"; //en ste caso root por ser localhost
-    $password = "";  //contraseña por si tiene algun servicio de hosting 
-    $servidor = "localhost"; //localhost por lo del xampp
-    $basededatos ="formulario1"; //nombre de la base de datos
+#    $usuario = "root"; //en ste caso root por ser localhost
+#    $password = "";  //contraseña por si tiene algun servicio de hosting 
+#    $servidor = "localhost"; //localhost por lo del xampp
+#    $basededatos ="formulario1"; //nombre de la base de datos
+#
+
     $boton1 =""; //variable
 
     $var1 = "";
@@ -18,11 +21,11 @@
 
 
 //por si hay errors de conexion un mensaje "Error con el servidor de la Base de datos".
-$conexion = mysqli_connect  ($servidor,$usuario,"") or die ("Error con el servidor de la Base de datos"); 
+//$conexion = mysqli_connect  ($servidor,$usuario,"") or die ("Error con el servidor de la Base de datos"); 
 
 
 //por si hay errors de conexion un mensaje "Error al conectarse a la Base de datos".
-$db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conectarse a la Base de datos");
+//$db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conectarse a la Base de datos");
 
 
         //recuperar las variables
@@ -37,7 +40,9 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
     $sql="INSERT INTO datos VALUES ('','$nombre','$sexo','$edad','$email','$intereses','$preferencia')"; //manda a traer los valores de '$nombre','$correo','$mensaje'
     
     //ejecutamos la centencia de sql
-    $ejecutar=mysqli_query($conexion, $sql);
+    //$ejecutar=mysqli_query($conexion, $sql);
+    //$ejecutar=mysqli_query($connection, $sql);
+    $ejecutar=$connection->query($sql);
 
     
     //verificacion de la ejecucioon
@@ -45,10 +50,15 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
         echo"huvo algun error"; //si algo sale mal mandanos este mensaje
         
     }else{
-        //echo"datos guardado correctamente <br><a href='index.html'>volver</a>"; //si todo sale bien mandanos este mensaje
+         //echo"datos guardado correctamente <br><a href='index.html'>volver</a>"; //si todo sale bien mandanos este mensaje
          //Compruebo si hay algún resultado
-         $row= mysqli_query($conexion,"SELECT * FROM datos ORDER by id DESC limit 1 ") or die ("problemas en consultas:".mysqli_error());
-        $row = mysqli_fetch_array($row);
+         //$row= mysqli_query($conexion,"SELECT * FROM datos ORDER by id DESC limit 1 ") or die ("problemas en consultas:".mysqli_error());
+         
+         //$row= mysqli_query($conexion,"SELECT * FROM datos ORDER by id DESC limit 1 ") or die ("problemas en consultas:".mysqli_error());
+         //$row = mysqli_fetch_array($row);
+         $sql="SELECT * FROM datos ORDER by id DESC limit 1 ";
+         $row = $connection->query($sql);
+         $row = mysqli_fetch_array($row);
          //Guardo los datos de la BD en las variables de php
          $var1 = $row["preferencia"];
            switch($var1) {

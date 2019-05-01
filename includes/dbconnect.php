@@ -7,8 +7,11 @@ function db_connect() {
         // Try and connect to the database, if a connection has not been established yet
     if(!isset($connection)) {
              // Load configuration as an array. Use the actual location of your configuration file
-        $config = parse_ini_file('c:\xampp\private\config.ini');
-        $config['password'] = getenv('MYSQLPASSWORD');
+        //$config = parse_ini_file('c:\xampp\private\config.ini');
+        $config['servername'] = getenv('MYSQL_SERVERNAME');
+        $config['username'] = getenv('MYSQL_USERNAME');
+        $config['password'] = getenv('MYSQL_PASSWORD');
+        $config['dbname'] = getenv('MYSQL_DBNAME');
         $connection = mysqli_connect($config['servername'],$config['username'],$config['password'],$config['dbname']);
     }
 

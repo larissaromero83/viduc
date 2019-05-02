@@ -47,6 +47,7 @@ require_once('./includes/dbconnect.php');
     
     //verificacion de la ejecucioon
     if(!$ejecutar){
+        echo $ejecutar;
         echo"huvo algun error"; //si algo sale mal mandanos este mensaje
         
     }else{

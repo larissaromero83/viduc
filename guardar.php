@@ -46,11 +46,10 @@ require_once('./includes/dbconnect.php');
 
     
     //verificacion de la ejecucioon
-    if(!$ejecutar){
-        echo $ejecutar;
-        echo"huvo algun error"; //si algo sale mal mandanos este mensaje
+//   if(!$ejecutar){
+//        echo"huvo algun error"; //si algo sale mal mandanos este mensaje
         
-    }else{
+//    }else{
          //echo"datos guardado correctamente <br><a href='index.html'>volver</a>"; //si todo sale bien mandanos este mensaje
          //Compruebo si hay algún resultado
          //$row= mysqli_query($conexion,"SELECT * FROM datos ORDER by id DESC limit 1 ") or die ("problemas en consultas:".mysqli_error());
@@ -94,7 +93,7 @@ require_once('./includes/dbconnect.php');
             header('Location: buscadorGenerico.php');
             }
             
- }       
+ //}       
       
        
         

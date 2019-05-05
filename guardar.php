@@ -24,8 +24,9 @@ $ejecutar    = mysqli_query( $conexion, $sql );
 //verificacion de la ejecucioon
 if ( !$ejecutar ) {
     //echo "huvo algun error"; //si algo sale mal mandanos este mensaje
-    error_log("Error al ejecutar el insert: ");
-    error_log($ejecutar);
+    error_log("Error al ejecutar el insert: " . error_log(mysqli_error($conexion)));
+    echo(mysqli_error($conexion));
+
 } else {
     //Compruebo si hay algún resultado
     $row = mysqli_query( $conexion, "SELECT * FROM datos ORDER by id DESC limit 1 " ) or die( "problemas en consultas:" . mysqli_error() );

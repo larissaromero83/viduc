@@ -76,10 +76,4 @@ $db = mysqli_select_db($conexion, $basededatos) or die ("Error conexion al conec
        
         
     
-<<<<<<< HEAD
 ?>﻿
-=======
-     
-?>﻿
-
->>>>>>> 47ecf9da82150d24bf36d4e6f98b4d769ecf059d

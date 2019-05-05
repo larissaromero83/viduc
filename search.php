@@ -96,31 +96,10 @@ END;
 <!--<![endif]-->
 
 <head>
-<style type="text/css">
-	.zoom{
-		transition: 1.5s ease;
- 		-moz-transition: 1.5s ease; /* Firefox */
- 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
- 		-o-transition: 1.5s ease; /* Opera */
-     
-	}
-	.zoom:hover{
-		transform : scale(2);
-		-moz-transform : scale(2); /* Firefox */
-		-webkit-transform : scale(2); /* Chrome - Safari */
-		-o-transform : scale(2); /* Opera */
-		-ms-transform : scale(2); /* IE9 */
-    margin-left:auto;
-    margin-right:auto;
-   
-   
-}
-	}
-</style>
-    <!--- basic page needs
+<!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>VIEDUC</title>
+    <title>VIDUC</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -143,6 +122,31 @@ END;
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+
+
+
+<style type="text/css">
+	.zoom{
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+     
+	}
+	.zoom:hover{
+		transform : scale(2);
+		-moz-transform : scale(2); /* Firefox */
+		-webkit-transform : scale(2); /* Chrome - Safari */
+		-o-transform : scale(2); /* Opera */
+		-ms-transform : scale(2); /* IE9 */
+    margin-left:auto;
+    margin-right:auto;
+   
+   
+}
+	}
+</style>
+    
     
 
 </head>

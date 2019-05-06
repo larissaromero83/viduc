@@ -19,7 +19,7 @@ $edad        = $_POST[ 'edad' ]; //name="mensaje" //name="mensaje"
 $preferencia = $_POST[ 'preferencia' ];
 //sentencia sql
 $sql         = "INSERT INTO datos (nombre, sexo, edad, preferencia) VALUES ('$nombre','$sexo','$edad','$preferencia')"; //manda a traer los valores de '$nombre','$correo','$mensaje'
-//ejecutamos la centencia de sql
+//ejecutamos la sentencia de sql
 $ejecutar    = mysqli_query( $conexion, $sql );
 //verificacion de la ejecucioon
 if ( !$ejecutar ) {
@@ -64,6 +64,10 @@ if ( !$ejecutar ) {
         default:
             header( 'Location: buscadorGenerico.php' );
     }
+
+
+
+    
 }
 ?>
 

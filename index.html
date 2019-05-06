@@ -6,6 +6,7 @@
 	<!--<![endif]-->
 
 	<head>
+		
 
 		<!--- basic page needs
     ================================================== -->
@@ -27,11 +28,27 @@
     ================================================== -->
 		<script src="js/modernizr.js"></script>
 		<script src="js/pace.min.js"></script>
-
+		<script>
+    function mostrar(dato) {
+  if (dato == "Otros") {
+    document.getElementById("nombre").style.display = "block";
+    document.getElementById("apellidos").style.display = "none";
+  }else{
+  document.getElementById("nombre").style.display = "none";
+    document.getElementById("apellidos").style.display = "block";
+    
+}
+  
+}
+</script>
+		
 		<!-- favicons
     ================================================== -->
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+
 
 	</head>
 
@@ -85,7 +102,7 @@
 				<span class="header-menu-text">Menu</span>
 				<span class="header-menu-icon"></span>
 			</a>
-
+			
 		</header>
 		<!-- end s-header -->
 
@@ -263,6 +280,7 @@
     ================================================== -->
 
 		<section id="contact" class="s-contact">
+			
 
 			<div class="overlay"></div>
 			<div class="contact__line"></div>
@@ -290,39 +308,57 @@
 						<p><b>
                             <font color="white">Preferencia:</font>
                         </b>
-							<input type="radio" name="preferencia" value="Deportes" required> Deportes
-							<input type="radio" name="preferencia" value="Idiomas" required> Idiomas
-							<input type="radio" name="preferencia" value="Cocina" required> Cocina
-							<input type="radio" name="preferencia" value="Baile" required> Baile
-							<input type="radio" name="preferencia" value="Electricidad" required> Electricidad
-							<input type="radio" name="preferencia" value="Manicura" required> Manicura
-							<input type="radio" name="preferencia" value="Estilista" required> Estilista
-							<input type="radio" name="preferencia" value="Plomeria" required> Plomeria
-							<input type="radio" name="preferencia" value="Costura" required> Costura
+							<input type="radio" name="preferencia" value="Deportes" required onchange="mostrar(this.value);" > Deportes
+							<input type="radio" name="preferencia" value="Idiomas" required onchange="mostrar(this.value);"> Idiomas
+							<input type="radio" name="preferencia" value="Cocina" required onchange="mostrar(this.value);"> Cocina
+							<input type="radio" name="preferencia" value="Baile" required onchange="mostrar(this.value);"> Baile
+							<input type="radio" name="preferencia" value="Electricidad" required onchange="mostrar(this.value);"> Electricidad
+							<input type="radio" name="preferencia" value="Manicura" required onchange="mostrar(this.value);"> Manicura
+							<input type="radio" name="preferencia" value="Estilista" required onchange="mostrar(this.value);"> Estilista
+							<input type="radio" name="preferencia" value="Plomeria" required onchange="mostrar(this.value);"> Plomeria
+							<input type="radio" name="preferencia" value="Costura" required onchange="mostrar(this.value);"> Costura
+							<input type="radio" name="preferencia" value="Otros" required onchange="mostrar(this.value);"> Otros
 						</p>
-
-
-						<input type="submit" value="Enviar">
-						<input type="reset" value="Limpiar">
-
-
-					</form>
-					<form action="search.php" method="GET">
-						<div>
-							<b>
-                            <font color="white">Escribe tu preferencia:</font>
-                        </b>
-							<input type="search" id="q" name="q" placeholder="Programación, tenis ..." class="full-width">
-							<input type="hidden" id="maxResults" name="maxResults" step="1" value="10">
-							<input type="submit" value="Buscar">
+						<div  id="nombre" style="display:none;" >
+						<input type="submit"  id="nombre" value="Enviar" >
+						<input type="reset" id="nombre" value="Limpiar"  >
 						</div>
-					</form>
+						
+                       <div  id="apellidos" style="display:none;">
+						</form>
+						<form action="search.php" method="GET">
+							<div>
+								<b>
+								<font color="white">Escribe tu preferencia:</font>
+							</b>
+								<input type="search" id="q" name="q" placeholder="Programación, tenis ..." class="full-width">
+								<input type="hidden" id="maxResults" name="maxResults" step="1" value="10">
+								<input type="submit" value="Buscar">
+							</div>
 
+
+
+							<input type="submit" value="Enviar" >
+							<input type="reset" value="Limpiar" >
+						</form>
+                       </div>
+
+					   
+					 
+					 
+					 
+					 
+
+
+
+					
 
 				</div>
 				<!-- end contact-content -->
 
 		</section>
+
+		
 		<!-- end s-contact -->
 
 		<!-- footer
@@ -437,6 +473,10 @@
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
 
+	<script type="text/javascript"></script>
+		
+
 	</body>
+	
 
 </html>

@@ -31,11 +31,11 @@
 		<script>
     function mostrar(dato) {
   if (dato == "Otros") {
-    document.getElementById("nombre").style.display = "block";
-    document.getElementById("apellidos").style.display = "none";
+    document.getElementById("otro").style.display = "block";
+    document.getElementById("opcciones").style.display = "none";
   }else{
-  document.getElementById("nombre").style.display = "none";
-    document.getElementById("apellidos").style.display = "block";
+  document.getElementById("otro").style.display = "none";
+    document.getElementById("opcciones").style.display = "block";
     
 }
   
@@ -320,13 +320,13 @@
 							<input type="radio" name="preferencia" value="Otros" required onchange="mostrar(this.value);"> Otros
 						</p>
 
-						<div  id="apellidos" style="display:none;">
-							<input type="submit"  id="apellidos" value="Enviar" >
-					  	<input type="reset" id="apellidos" value="Limpiar"  >
+						<div  id="opcciones" style="display:none;">
+							<input type="submit"  id="opcciones" value="Enviar" >
+					  	<input type="reset" id="opcciones" value="Limpiar"  >
 				  	</div>
 					</form>
 
-						<div  id="nombre" style="display:none;" >
+						<div  id="otro" style="display:none;" >
 							<form action="search.php" method="GET">
 								<div>
 									<b>

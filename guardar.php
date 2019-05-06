@@ -62,7 +62,7 @@ if ( !$ejecutar ) {
             header( 'Location: costura.php' );
             break;
         default:
-            header( 'Location: buscadorGenerico.php' );
+            header( 'Location: index.html' );
     }
 
 

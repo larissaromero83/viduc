@@ -95,7 +95,7 @@
 
             <form action="search.php" method="GET">
               <div>
-                <h3 class="subhead">Temas a buscar :</h3> <input type="search" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id=" q " name="q " placeholder="Temas Buscados ">
+                <h3 class="subhead">Temas a buscar :</h3> <input type="search" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id=" q " name="q " placeholder="Temas Buscados "required>
                         </div>
                         <div >
                            <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id="maxResults" name="maxResults" min="1" max="50" step="1" value="10">
@@ -149,7 +149,7 @@
 
 
         <div style="text-align: left ;width:800px">
-          <input type="button" value=" Volver" onclick="location='index.html'" />
+          <input type="button" value=" Volver" onclick="location='index.html#contact'" />
         </div>
 
 

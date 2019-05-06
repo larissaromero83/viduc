@@ -296,7 +296,7 @@
 
 				<div class="contact-primary">
 
-					<h3 class="h6">Formulario</h3>
+					<h3 class="h6">Queremos conocerte</h3>
 
 					<!--<form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">-->
 					<form action="guardar.php" method="POST">
@@ -319,39 +319,27 @@
 							<input type="radio" name="preferencia" value="Costura" required onchange="mostrar(this.value);"> Costura
 							<input type="radio" name="preferencia" value="Otros" required onchange="mostrar(this.value);"> Otros
 						</p>
+
+						<div  id="apellidos" style="display:none;">
+							<input type="submit"  id="apellidos" value="Enviar" >
+					  	<input type="reset" id="apellidos" value="Limpiar"  >
+				  	</div>
+					</form>
+
 						<div  id="nombre" style="display:none;" >
-						<input type="submit"  id="nombre" value="Enviar" >
-						<input type="reset" id="nombre" value="Limpiar"  >
-						</div>
-						
-                       <div  id="apellidos" style="display:none;">
-						</form>
-						<form action="search.php" method="GET">
-							<div>
-								<b>
-								<font color="white">Escribe tu preferencia:</font>
-							</b>
-								<input type="search" id="q" name="q" placeholder="Programación, tenis ..." class="full-width">
-								<input type="hidden" id="maxResults" name="maxResults" step="1" value="10">
-								<input type="submit" value="Buscar">
+							<form action="search.php" method="GET">
+								<div>
+									<b>
+																<font color="white">Escribe tu preferencia:</font>
+														</b>
+									<input type="search" id="q" name="q" placeholder="Programación, tenis ..." class="full-width">
+									<input type="hidden" id="maxResults" name="maxResults" step="1" value="10">
+									<input type="submit" value="Buscar">
+								</div>
 							</div>
-
-
-
-							<input type="submit" value="Enviar" >
-							<input type="reset" value="Limpiar" >
-						</form>
-                       </div>
-
-					   
-					 
-					 
-					 
-					 
-
-
-
-					
+							</form>
+							
+	
 
 				</div>
 				<!-- end contact-content -->

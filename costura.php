@@ -80,7 +80,9 @@
       <div class="row contact-contentes" data-aos="fade-up">
 
         <div class="contact-primary">
-
+        <div style="text-align: left ;width:800px">
+					<input type="button" value=" Volver" onclick="location='index.html#contact'" />
+				</div>
 
           <div class="col-block service-item" data-aos="fade-up" id="columna1">
             <div class="service-text">
@@ -148,9 +150,7 @@
         </div>
 
 
-        <div style="text-align: left ;width:800px">
-          <input type="button" value=" Volver" onclick="location='index.html#contact'" />
-        </div>
+        
 
 
 

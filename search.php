@@ -151,10 +151,11 @@ END;
    <div class="row contact-contentes" data-aos="fade-up">
       <div class="col-block service-item" data-aos="fade-up">
          <div class="service-text" align="center">
-            <?=$htmlBody?>
-            <div style="text-align: left ;width:1200px">
+         <div style="text-align: left ;width:1200px">
                <input type="button" value="Volver" onclick="javascript:history.back(-1);"/>
             </div>
+            <?=$htmlBody?>
+            
          </div>
       </div>
    </div>

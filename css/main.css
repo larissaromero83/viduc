@@ -1233,7 +1233,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
+    font-size: 3.7rem;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -1433,13 +1433,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## header logo
  * ------------------------------------------------------------------- */
+
+
+
 .header-logo {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     margin: 0;
     padding: 0;
     left: 40px;
-    top: 50%;
+    top: 10%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1567,7 +1570,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 30px;
     width: 30px;
     border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(189, 185, 185, 0.3);
     position: absolute;
     top: 36px;
     right: 30px;
@@ -2760,6 +2763,7 @@ html.no-csstransitions .home-content__main {
     padding-top: 7.2rem;
     text-align: center;
     position: relative;
+    
 }
 
 .clients-testimonials::before {
@@ -2783,7 +2787,7 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials p {
     font-family: "lora-regular", serif;
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 1.8;
     color: #555555;
     margin-bottom: 6rem;
@@ -3623,6 +3627,16 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
-
-
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}

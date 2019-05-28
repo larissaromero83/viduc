@@ -5,6 +5,7 @@
 <html class="no-js" lang="en">
   <!--<![endif]-->
 
+
   <head>
 
     <!--- basic page needs
@@ -97,7 +98,7 @@
 
             <form action="search.php" method="GET">
               <div>
-                <h3 class="subhead">Temas a buscar :</h3> <input type="search" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id=" q " name="q " placeholder="Temas Buscados "required>
+                <h3 class="subhead">Temas a buscar :</h3> <input type="search" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id=" q " name=" q" placeholder="Temas Buscados "required>
                         </div>
                         <div >
                            <h3 class="subhead"> Cantidad de Resultados:</h3><input type="number" style=" border-style: solid; font-size:12pt; color: #f7f9f7; letter-spacing : 3px; id="maxResults" name="maxResults" min="1" max="50" step="1" value="10">

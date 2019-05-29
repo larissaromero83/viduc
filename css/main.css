@@ -1217,10 +1217,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
+    font-size: 4.2rem;
+    line-height: 1.255;
+    color: #000000;
+    margin-top: 0;
+
+    
+}
+
+.display-3 {
+    font-family: "montserrat-medium", sans-serif;
     font-size: 5.2rem;
     line-height: 1.255;
     color: #000000;
     margin-top: 0;
+
+    
 }
 
 .display-2--light {
@@ -1233,6 +1245,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    color: #39b54a;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.subheade {
+    font-family: "montserrat-bold", sans-serif;
     font-size: 3.7rem;
     line-height: 1.333;
     text-transform: uppercase;
@@ -1241,6 +1263,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 
 .subhead--dark {
     color: #000000;
